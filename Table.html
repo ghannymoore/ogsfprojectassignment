@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid peru;
+            padding: 10px;
+            text-align: left;
+        }
+        th{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h2>Product Sales Report</h2>
+    <table>
+        <caption>Monthly Sales</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Units Sold</th>
+                <th>Total Revenue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>laptop</td>
+                <td>Electronics</td>
+                <td>150</td>
+                <td>£12,000</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>Electronics</td>
+                <td>200</td>
+                <td>£9,000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Accessories (Headphone and Charger)</td>
+                <td>500</td>
+                <td>£70,000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Charger (HP, Dell, Accer and Other Products)</td>
+                <td>Available</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Revenue</td>
+                <td>£546,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
